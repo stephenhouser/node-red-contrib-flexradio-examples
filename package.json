@@ -1,12 +1,32 @@
 {
-    "name": "node-red-contrib-flexradio-examples",
-    "description": "NodeRed Flexradio Examples",
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "private": true,
+    "dependencies": {
+        "binary-parser": "^1.9.2",
+        "node-red-contrib-bool-gate": "~1.0.2",
+        "node-red-contrib-delay-gate": "~1.0.1",
+        "node-red-contrib-queue-gate": "~1.5.5",
+        "node-red-contrib-simple-gate": "~0.5.2",
+        "node-red-contrib-string": "~1.0.0",
+        "node-red-contrib-ui-clock": "~1.0.1",
+        "node-red-contrib-ui-digital-display": "~1.0.2",
+        "node-red-contrib-ui-led": "~0.4.11",
+        "node-red-contrib-ui-level": "~0.1.46",
+        "node-red-contrib-ui-state-trail": "~0.4.3",
+        "node-red-contrib-ui-statechart": "~0.1.4",
+        "node-red-contrib-ui-svg": "~2.3.0",
+        "node-red-contrib-wav": "~1.0.1",
+        "node-red-contrib-wsjt-x": "~1.0.0",
+        "node-red-dashboard": "~3.1.2",
+        "node-red-node-ui-lineargauge": "~0.3.6",
+        "node-red-node-ui-list": "~0.3.6"
+    },
     "node-red": {
-        "settings": {
-            "flowFile": "flow.json",
-            "credentialsFile": "flow_cred.json"
-        }
+	    "settings": {
+		    "flowFile": "flows.json",
+		    "credentialsFile": "flows_cred.json"
+	    }
     }
 }
